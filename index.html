@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Renaissance</title>
+<meta name="generator" content="WYSIWYG Web Builder 11 - http://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="renaissance2k17.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="jquery.ui.effect.min.js"></script>
+<script src="wb.carousel.min.js"></script>
+<script src="jquery.ui.effect-fade.min.js"></script>
+<script src="wwb11.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   var Carousel1Opts =
+   {
+      delay: 3000,
+      duration: 500,
+      easing: 'easeInCirc',
+      mode: 'forward-circular',
+      direction: '',
+      scalemode: 3,
+      pagination: true,
+      pagination_img_default: 'images/page_default.png',
+      pagination_img_active: 'images/page_active.png',
+      start: 0
+   };
+   $("#Carousel1").carousel(Carousel1Opts);
+   $("#Carousel1_back a").click(function()
+   {
+      $('#Carousel1').carousel('prev');
+   });
+   $("#Carousel1_next a").click(function()
+   {
+      $('#Carousel1').carousel('next');
+   });
+   $("a[href*='#Layer1']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#Layer1').offset().top }, 600, 'linear');
+   });
+   $("a[href*='#Bookmark1']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_Bookmark1').offset().top }, 600, 'linear');
+   });
+   function Bookmark2Scroll()
+   {
+      var $obj = $("#wb_Bookmark2");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         ShowObjectWithEffect('wb_About_us', 1, 'fade', 2000);
+      }
+   }
+   Bookmark2Scroll();
+   $(window).scroll(function(event)
+   {
+      Bookmark2Scroll();
+   });
+   function Bookmark3Scroll()
+   {
+      var $obj = $("#wb_Bookmark3");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         ShowObjectWithEffect('wb_Text_1', 1, 'fade', 2000);
+      }
+   }
+   Bookmark3Scroll();
+   $(window).scroll(function(event)
+   {
+      Bookmark3Scroll();
+   });
+   function Bookmark4Scroll()
+   {
+      var $obj = $("#wb_Bookmark4");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         ShowObjectWithEffect('wb_Text_2', 1, 'fade', 2000);
+      }
+   }
+   Bookmark4Scroll();
+   $(window).scroll(function(event)
+   {
+      Bookmark4Scroll();
+   });
+});
+</script>
+</head>
+<body>
+<div id="wb_Carousel1">
+<div id="Carousel1">
+<div class="frame frame-1">
+<div class="innerframe">
+<div id="wb_Bookmark1">
+<a id="Bookmark1">&nbsp;</a>
+</div>
+<div id="Layer1">
+<div id="Layer1_Container">
+<div id="wb_CssMenu1">
+<ul>
+<li class="firstmain"><a href="#Bookmark1" target="_self">HOME</a>
+</li>
+<li><a href="#" target="_self">Item&nbsp;2</a>
+</li>
+<li><a href="#" target="_self">Item&nbsp;3</a>
+</li>
+<li><a href="#" target="_self">Item&nbsp;4</a>
+</li>
+<li><a href="#" target="_self">Item&nbsp;1</a>
+</li>
+<li><a href="#" target="_self">Item&nbsp;5</a>
+</li>
+<li><a href="#" target="_self">Item&nbsp;6</a>
+</li>
+</ul>
+</div>
+<div id="wb_Image1">
+<img src="images/download.png" id="Image1" alt=""></div>
+<div id="wb_CssMenu2">
+<ul>
+<li class="firstmain"><a href="#Layer1" target="_self">HOME</a>
+</li>
+<li><a href="#" target="_self">Item&nbsp;2</a>
+</li>
+<li><a href="#" target="_self">Item&nbsp;3</a>
+</li>
+<li><a href="#" target="_self">Item&nbsp;4</a>
+</li>
+<li><a href="#" target="_self">Item&nbsp;1</a>
+</li>
+<li><a href="#" target="_self">Item&nbsp;5</a>
+</li>
+<li><a href="#" target="_self">Item&nbsp;6</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="frame frame-2">
+<div class="innerframe">
+</div>
+</div>
+<div class="frame frame-3">
+<div class="innerframe">
+</div>
+</div>
+</div>
+<div id="Carousel1_back"><a style="cursor:pointer"><img alt="Back" style="border-width:0" src="images/carousel_back.png"></a></div>
+<div id="Carousel1_next"><a style="cursor:pointer"><img alt="Next" style="border-width:0" src="images/carousel_next.png"></a></div>
+</div>
+<div id="Layer2">
+<div id="Layer2_Container">
+<div id="wb_Text_2">
+<span style="color:#000000;">Renaissance is a platform for students to let them think about Business ideas and bring them forth to the open world and discuss them with the gurus of the field considering the fact that India needs its students to have startups </span></div>
+<div id="wb_About_us">
+<span style="color:#0000CD;"><strong><u>About us</u></strong></span></div>
+<div id="wb_Text_1">
+<span style="color:#696969;"><strong>Renaissance - A place to fulfill your dreams!!<br></strong></span></div>
+<img src="images/img0001.jpg" id="Text1" alt="" >
+</div>
+</div>
+<div id="Layer3">
+<div id="Layer3_Container">
+<div id="wb_Text2">
+<span style="color:#0000CD;"><strong><u>About us</u></strong></span></div>
+<img src="images/img0003.jpg" id="Text3" alt="" >
+<img src="images/img0004.jpg" id="Text4" alt="" >
+</div>
+</div>
+<div id="wb_Bookmark2">
+<a id="Bookmark2">&nbsp;</a>
+</div>
+<div id="wb_Bookmark3">
+<a id="Bookmark3">&nbsp;</a>
+</div>
+<div id="wb_Bookmark4">
+<a id="Bookmark4">&nbsp;</a>
+</div>
+</body>
+</html>

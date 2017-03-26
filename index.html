@@ -6,7 +6,7 @@
 <meta name="generator" content="WYSIWYG Web Builder 11 - http://www.wysiwygwebbuilder.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="renaissance2k17.css" rel="stylesheet">
-<link href="style.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
 <script src="jquery.ui.effect.min.js"></script>
 <script src="wb.carousel.min.js"></script>
@@ -41,6 +41,11 @@ $(document).ready(function()
    {
       event.preventDefault();
       $('html, body').stop().animate({ scrollTop: $('#Layer1').offset().top }, 600, 'linear');
+   });
+   $("a[href*='#Layer2']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#Layer2').offset().top }, 600, 'linear');
    });
    $("a[href*='#Bookmark1']").click(function(event)
    {
@@ -89,24 +94,46 @@ $(document).ready(function()
    {
       Bookmark4Scroll();
    });
+   function Bookmark5Scroll()
+   {
+      var $obj = $("#wb_Bookmark5");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         ShowObjectWithEffect('wb_Text15', 1, 'fade', 2000);
+      }
+   }
+   Bookmark5Scroll();
+   $(window).scroll(function(event)
+   {
+      Bookmark5Scroll();
+   });
+   function Bookmark6Scroll()
+   {
+      var $obj = $("#wb_Bookmark6");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         ShowObjectWithEffect('wb_Text16', 1, 'fade', 2000);
+      }
+   }
+   Bookmark6Scroll();
+   $(window).scroll(function(event)
+   {
+      Bookmark6Scroll();
+   });
 });
 </script>
 </head>
 <body>
-<div id="wb_Carousel1">
-<div id="Carousel1">
-<div class="frame frame-1">
-<div class="innerframe">
-<div id="wb_Bookmark1">
-<a id="Bookmark1">&nbsp;</a>
-</div>
+<div id="PageHeader1">
 <div id="Layer1">
 <div id="Layer1_Container">
 <div id="wb_CssMenu1">
 <ul>
 <li class="firstmain"><a href="#Bookmark1" target="_self">HOME</a>
 </li>
-<li><a href="#" target="_self">Item&nbsp;2</a>
+<li><a href="#Layer2" target="_self">ABOUT</a>
 </li>
 <li><a href="#" target="_self">Item&nbsp;3</a>
 </li>
@@ -143,6 +170,14 @@ $(document).ready(function()
 </div>
 </div>
 </div>
+<div id="wb_Carousel1">
+<div id="Carousel1">
+<div class="frame frame-1">
+<div class="innerframe">
+<div id="wb_Bookmark1">
+<a id="Bookmark1">&nbsp;</a>
+</div>
+</div>
 </div>
 <div class="frame frame-2">
 <div class="innerframe">
@@ -165,6 +200,10 @@ $(document).ready(function()
 <div id="wb_Text_1">
 <span style="color:#696969;"><strong>Renaissance - A place to fulfill your dreams!!<br></strong></span></div>
 <img src="images/img0001.jpg" id="Text1" alt="" >
+<div id="wb_Text15">
+<span style="color:#696969;font-family:'Times New Roman';font-size:27px;"><strong>Goals</strong></span></div>
+<div id="wb_Text16">
+<span style="color:#000000;font-family:Arial;font-size:16px;line-height:27px;">It would be a kick start to something which may in future become the foundation for many successful startups and would also help to create a startup favoring environment in the college, this would also help the participants to know the shortcomings in their ideas so that they can improve their ideas.</span></div>
 </div>
 </div>
 <div id="Layer3">
@@ -183,6 +222,18 @@ $(document).ready(function()
 </div>
 <div id="wb_Bookmark4">
 <a id="Bookmark4">&nbsp;</a>
+</div>
+<div id="wb_Bookmark5">
+<a id="Bookmark5">&nbsp;</a>
+</div>
+<div id="wb_Bookmark6">
+<a id="Bookmark6">&nbsp;</a>
+</div>
+<div id="Layer4">
+<div id="Layer4_Container">
+<div id="wb_Text5">
+<span style="color:#0000CD;font-family:Arial;font-size:32px;"><strong><u>Competition</u></strong></span></div>
+</div>
 </div>
 </body>
 </html>

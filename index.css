@@ -1,0 +1,1156 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#wb_Carousel1
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Carousel1
+{
+   display: block;
+   float: left;
+   font-size: 0;
+   top: 0 !important;
+}
+#Carousel1 .frame
+{
+   width: 970px;
+   display: inline-block;
+   overflow: hidden;
+   height: 625px;
+}
+#Carousel1 .innerframe
+{
+   display: inline-block;
+   height: 0;
+   left: 0;
+   margin-left: 0;
+   position: absolute;
+   top: 0;
+   width: 970px;
+}
+#wb_Carousel1 .pagination
+{
+   bottom: 0;
+   left: 0;
+   position: absolute;
+   text-align: center;
+   vertical-align: middle;
+   width: 100%;
+   z-index: 998;
+}
+#wb_Carousel1 .pagination img
+{
+   border-style: none;
+   padding: 12px 12px 12px 12px;
+}
+#Carousel1 .frame-1
+{
+   background-color: transparent;
+   background-image: url(images/VIT-Chennai.jpg);
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: cover;
+}
+#Carousel1 .frame-2
+{
+   background-color: transparent;
+   background-image: url(images/desktop6_bk.jpg);
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: cover;
+}
+#Carousel1 .frame-3
+{
+   background-color: transparent;
+   background-image: url(images/service_bk1.jpg);
+   background-repeat: repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: cover;
+}
+#Layer1
+{
+   background-color: #000000;
+   background-image: none;
+   border: 1px transparent solid;
+   filter: alpha(opacity=70);
+   opacity: 0.70;
+}
+#wb_CssMenu1
+{
+   border: 0px #000000 solid;
+   background-color: transparent;
+}
+#wb_CssMenu1 ul
+{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   position: relative;
+   display: inline-block;
+}
+#wb_CssMenu1 li
+{
+   float: left;
+   margin: 0;
+   padding: 0px 4px 0px 0px;
+   width: 80px;
+}
+#wb_CssMenu1 a
+{
+   display: block;
+   float: left;
+   color: #FFFFFF;
+   border: 0px #000000 none;
+   background-color: #000000;
+   background-image: none;
+   font-family: "Bookman Old Style";
+   font-weight: bold;
+   font-size: 13px;
+   font-style: normal;
+   text-decoration: none;
+   width: 70px;
+   height: 30px;
+   padding: 0px 5px 0px 5px;
+   vertical-align: middle;
+   line-height: 30px;
+   text-align: center;
+   -moz-box-shadow: 4px 0px 20px #000000;
+   -webkit-box-shadow: 4px 0px 20px #000000;
+   box-shadow: 4px 0px 20px #000000;
+}
+#wb_CssMenu1 li:hover a, #wb_CssMenu1 a:hover
+{
+   color: #FF0000;
+   background-color: #000000;
+   background-image: none;
+   border: 0px #2E6DA4 none;
+}
+#wb_CssMenu1 li.firstmain
+{
+   padding-left: 0px;
+}
+#wb_CssMenu1 li.lastmain
+{
+   padding-right: 0px;
+}
+#wb_CssMenu1 br
+{
+   clear: both;
+   font-size: 1px;
+   height: 0;
+   line-height: 0;
+}
+#Image1
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_CssMenu2
+{
+   border: 0px #000000 solid;
+   background-color: transparent;
+}
+#wb_CssMenu2 ul
+{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   position: relative;
+   display: inline-block;
+}
+#wb_CssMenu2 li
+{
+   float: left;
+   margin: 0;
+   padding: 0px 4px 0px 0px;
+   width: 65px;
+}
+#wb_CssMenu2 a
+{
+   display: block;
+   float: left;
+   color: #FFFFFF;
+   border: 0px #000000 none;
+   background-color: #000000;
+   background-image: none;
+   font-family: "Bookman Old Style";
+   font-weight: bold;
+   font-size: 13px;
+   font-style: normal;
+   text-decoration: none;
+   width: 55px;
+   height: 30px;
+   padding: 0px 5px 0px 5px;
+   vertical-align: middle;
+   line-height: 30px;
+   text-align: center;
+   -moz-box-shadow: 4px 0px 20px #000000;
+   -webkit-box-shadow: 4px 0px 20px #000000;
+   box-shadow: 4px 0px 20px #000000;
+}
+#wb_CssMenu2 li:hover a, #wb_CssMenu2 a:hover
+{
+   color: #FF0000;
+   background-color: #000000;
+   background-image: none;
+   border: 0px #2E6DA4 none;
+}
+#wb_CssMenu2 li.firstmain
+{
+   padding-left: 0px;
+}
+#wb_CssMenu2 li.lastmain
+{
+   padding-right: 0px;
+}
+#wb_CssMenu2 br
+{
+   clear: both;
+   font-size: 1px;
+   height: 0;
+   line-height: 0;
+}
+#Layer2
+{
+   background-color: #F5F5F5;
+   background-image: none;
+   border: 1px transparent solid;
+}
+#wb_About_us 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 15px 0px 15px 0px;
+   text-align: center;
+}
+#wb_About_us
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 32px;
+}
+#wb_About_us div
+{
+   text-align: center;
+}
+#wb_Text_2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text_2
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 17px;
+}
+#wb_Text_2 div
+{
+   text-align: left;
+   white-space: nowrap;
+}
+#wb_Text_1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px transparent solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text_1
+{
+   font-family: "Times New Roman";
+   font-weight: normal;
+   font-size: 27px;
+}
+#wb_Text_1 div
+{
+   text-align: left;
+}
+#Text1 
+{
+   border-width: 0;
+   margin: 0;
+   visibility: hidden;
+}
+#Layer3
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #CCCCCC solid;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 15px 0px 15px 0px;
+   text-align: center;
+}
+#wb_Text2
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 32px;
+}
+#wb_Text2 div
+{
+   text-align: center;
+}
+#Text3 
+{
+   border-width: 0;
+   margin: 0;
+   visibility: hidden;
+}
+#Text4 
+{
+   border-width: 0;
+   margin: 0;
+   visibility: hidden;
+}
+#wb_About_us
+{
+   position: absolute;
+   left: 14px;
+   top: 32px;
+   width: 940px;
+   height: 37px;
+   visibility: hidden;
+   text-align: center;
+   z-index: 9;
+}
+#Layer2_Container
+{
+   width: 968px;
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+}
+#wb_Text2
+{
+   position: absolute;
+   left: 61px;
+   top: 17px;
+   width: 354px;
+   height: 37px;
+   visibility: hidden;
+   text-align: center;
+   z-index: 12;
+}
+#Text1
+{
+   position: absolute;
+   left: 12px;
+   top: 88px;
+   width: 371px;
+   height: 62px;
+   z-index: 11;
+}
+#Carousel1_next
+{
+   position: absolute;
+   right: 4px;
+   top: 47%;
+   width: 30px;
+   height: 30px;
+   z-index: 999;
+}
+#wb_Image1
+{
+   position: absolute;
+   left: 9px;
+   top: 3px;
+   width: 81px;
+   height: 85px;
+   z-index: 1;
+}
+#wb_Bookmark1
+{
+   position: absolute;
+   left: 134px;
+   top: 0px;
+   width: 31px;
+   height: 24px;
+   z-index: 3;
+}
+#wb_Bookmark2
+{
+   position: absolute;
+   left: 32px;
+   top: 695px;
+   width: 36px;
+   height: 26px;
+   z-index: 18;
+}
+#Text3
+{
+   position: absolute;
+   left: 11px;
+   top: 100px;
+   width: 440px;
+   height: 44px;
+   z-index: 13;
+}
+#Layer1
+{
+   position: fixed;
+   text-align: center;
+   left: 0;
+   top: 0;
+   right: 0;
+   height: 91px;
+   z-index: 4;
+}
+#wb_Bookmark3
+{
+   position: absolute;
+   left: 33px;
+   top: 759px;
+   width: 35px;
+   height: 31px;
+   z-index: 19;
+}
+#Text4
+{
+   position: absolute;
+   left: 42px;
+   top: 139px;
+   width: 393px;
+   height: 100px;
+   z-index: 14;
+}
+#Layer2
+{
+   position: absolute;
+   text-align: center;
+   left: 0px;
+   top: 625px;
+   width: 99.7938%;
+   height: 473px;
+   z-index: 16;
+}
+#Carousel1_back
+{
+   position: absolute;
+   left: 4px;
+   top: 47%;
+   width: 30px;
+   height: 30px;
+   z-index: 999;
+}
+#wb_Bookmark4
+{
+   position: absolute;
+   left: 30px;
+   top: 878px;
+   width: 40px;
+   height: 28px;
+   z-index: 20;
+}
+#Layer3
+{
+   position: absolute;
+   text-align: center;
+   visibility: hidden;
+   left: 1px;
+   top: 613px;
+   width: 49.1753%;
+   height: 366px;
+   z-index: 17;
+}
+#Layer1_Container
+{
+   width: 970px;
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+}
+#wb_Carousel1
+{
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   width: 970px;
+   height: 625px;
+   z-index: 15;
+   overflow: hidden;
+   position: relative;
+}
+#Bookmark1
+{
+   visibility: hidden;
+}
+#Bookmark2
+{
+   visibility: hidden;
+}
+#Bookmark3
+{
+   visibility: hidden;
+}
+#Bookmark4
+{
+   visibility: hidden;
+}
+#Layer3_Container
+{
+   width: 477px;
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+}
+#wb_CssMenu1
+{
+   position: absolute;
+   left: 218px;
+   top: 30px;
+   width: 588px;
+   height: 30px;
+   text-align: center;
+   z-index: 0;
+}
+#wb_CssMenu2
+{
+   position: absolute;
+   left: 218px;
+   top: 43px;
+   width: 483px;
+   height: 30px;
+   visibility: hidden;
+   text-align: center;
+   z-index: 2;
+}
+#Carousel1
+{
+   position: absolute;
+}
+#wb_Text_1
+{
+   position: absolute;
+   left: 11px;
+   top: 115px;
+   width: 536px;
+   height: 62px;
+   visibility: hidden;
+   z-index: 10;
+   text-align: left;
+}
+#wb_Text_2
+{
+   position: absolute;
+   left: 23px;
+   top: 178px;
+   width: 513px;
+   height: 100px;
+   visibility: hidden;
+   z-index: 8;
+   text-align: left;
+}
+@media only screen and (min-width: 768px) and (max-width: 969px)
+{
+#wb_Carousel1
+{
+   width: 768px;
+   height: 599px;
+   visibility: visible;
+   display: block;
+}
+#Carousel1 .frame
+{
+   width: 768px;
+   height: 599px;
+}
+#Carousel1 .innerframe
+{
+   width: 768px;
+   height: 0;
+}
+#Layer1
+{
+   height: 104px;
+   visibility: visible;
+   display: inline;
+   background-color: #000000;
+   background-image: none;
+}
+#Layer1_Container
+{
+   width: 768px;
+}
+#wb_CssMenu1
+{
+   left: 270px;
+   top: 46px;
+   visibility: hidden;
+   display: none;
+}
+#wb_CssMenu1 li
+{
+   width: 80px;
+}
+#wb_CssMenu1 a
+{
+   color: #FFFFFF;
+   border: 0px #000000 none;
+   background-color: #000000;
+   background-image: none;
+   font-family: "Bookman Old Style";
+   font-weight: bold;
+   font-size: 13px;
+   font-style: normal;
+   text-decoration: none;
+   width: 70px;
+   height: 30px;
+   padding: 0px 5px 0px 5px;
+   line-height: 30px;
+   -moz-box-shadow: 4px 0px 20px #000000;
+   -webkit-box-shadow: 4px 0px 20px #000000;
+   box-shadow: 4px 0px 20px #000000;
+}
+#wb_CssMenu1 li:hover a, #wb_CssMenu1 a:hover
+{
+   color: #FF0000;
+   background-color: #000000;
+   background-image: none;
+   border: 0px #2E6DA4 none;
+}
+#wb_Image1
+{
+   left: 8px;
+   top: 0px;
+   width: 96px;
+   height: 102px;
+   visibility: visible;
+   display: inline;
+}
+#wb_CssMenu2
+{
+   left: 188px;
+   top: 36px;
+   visibility: visible;
+   display: inline;
+}
+#wb_CssMenu2 li
+{
+   width: 65px;
+}
+#wb_CssMenu2 a
+{
+   color: #FFFFFF;
+   border: 0px #000000 none;
+   background-color: #000000;
+   background-image: none;
+   font-family: "Bookman Old Style";
+   font-weight: bold;
+   font-size: 13px;
+   font-style: normal;
+   text-decoration: none;
+   width: 55px;
+   height: 30px;
+   padding: 0px 5px 0px 5px;
+   line-height: 30px;
+   -moz-box-shadow: 4px 0px 20px #000000;
+   -webkit-box-shadow: 4px 0px 20px #000000;
+   box-shadow: 4px 0px 20px #000000;
+}
+#wb_CssMenu2 li:hover a, #wb_CssMenu2 a:hover
+{
+   color: #FF0000;
+   background-color: #000000;
+   background-image: none;
+   border: 0px #2E6DA4 none;
+}
+#Layer2
+{
+   left: 0px;
+   top: 599px;
+   height: 403px;
+   visibility: visible;
+   display: inline;
+   font-size: 13px;
+   background-color: #F5F5F5;
+   background-image: none;
+}
+#Layer2
+{
+   width: 100%;
+}
+#Layer2_Container
+{
+   width: 768px;
+}
+#wb_About_us
+{
+   left: 206px;
+   top: 18px;
+   width: 354px;
+   height: 37px;
+   visibility: visible;
+   display: inline;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_About_us
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 32px;
+}
+#wb_Text_2
+{
+   left: 42px;
+   top: 158px;
+   width: 393px;
+   height: 125px;
+   visibility: visible;
+   display: inline;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text_2
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 17px;
+}
+#wb_Text_1
+{
+   left: 8px;
+   top: 96px;
+   width: 536px;
+   height: 62px;
+   visibility: visible;
+   display: inline;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text_1
+{
+   font-family: "Times New Roman";
+   font-weight: normal;
+   font-size: 27px;
+}
+#wb_Bookmark1
+{
+   left: 134px;
+   top: 0px;
+   width: 31px;
+   height: 24px;
+   visibility: visible;
+   display: inline;
+}
+#Text1
+{
+   left: 12px;
+   top: 154px;
+   visibility: hidden;
+   display: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text1
+{
+   font-family: "Times New Roman";
+   font-weight: normal;
+   font-size: 27px;
+}
+#Layer3
+{
+   left: 1px;
+   top: 613px;
+   height: 366px;
+   visibility: hidden;
+   display: none;
+   font-size: 13px;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#Layer3
+{
+   width: 62.3698%;
+}
+#Layer3_Container
+{
+   width: 477px;
+}
+#wb_Text2
+{
+   left: 61px;
+   top: 46px;
+   width: 354px;
+   height: 37px;
+   visibility: hidden;
+   display: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text2
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 32px;
+}
+#Text3
+{
+   left: 11px;
+   top: 129px;
+   visibility: hidden;
+   display: none;
+   background-color: transparent;
+   background-image: none;
+}
+#Text4
+{
+   left: 42px;
+   top: 168px;
+   visibility: hidden;
+   display: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Bookmark2
+{
+   left: 32px;
+   top: 654px;
+   width: 36px;
+   height: 26px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Bookmark3
+{
+   left: 33px;
+   top: 692px;
+   width: 35px;
+   height: 31px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Bookmark4
+{
+   left: 32px;
+   top: 740px;
+   width: 40px;
+   height: 28px;
+   visibility: visible;
+   display: inline;
+}
+}
+@media only screen and (max-width: 767px)
+{
+#wb_Carousel1
+{
+   width: 480px;
+   height: 613px;
+   visibility: visible;
+   display: block;
+}
+#Carousel1 .frame
+{
+   width: 480px;
+   height: 613px;
+}
+#Carousel1 .innerframe
+{
+   width: 480px;
+   height: 0;
+}
+#Layer1
+{
+   height: 119px;
+   visibility: hidden;
+   display: none;
+   background-color: #000000;
+   background-image: none;
+}
+#Layer1_Container
+{
+   width: 480px;
+}
+#wb_CssMenu1
+{
+   left: 218px;
+   top: 53px;
+   visibility: hidden;
+   display: none;
+}
+#wb_CssMenu1 li
+{
+   width: 80px;
+}
+#wb_CssMenu1 a
+{
+   color: #FFFFFF;
+   border: 0px #000000 none;
+   background-color: #000000;
+   background-image: none;
+   font-family: "Bookman Old Style";
+   font-weight: bold;
+   font-size: 13px;
+   font-style: normal;
+   text-decoration: none;
+   width: 70px;
+   height: 30px;
+   padding: 0px 5px 0px 5px;
+   line-height: 30px;
+   -moz-box-shadow: 4px 0px 20px #000000;
+   -webkit-box-shadow: 4px 0px 20px #000000;
+   box-shadow: 4px 0px 20px #000000;
+}
+#wb_CssMenu1 li:hover a, #wb_CssMenu1 a:hover
+{
+   color: #FF0000;
+   background-color: #000000;
+   background-image: none;
+   border: 0px #2E6DA4 none;
+}
+#wb_Image1
+{
+   left: 8px;
+   top: 0px;
+   width: 109px;
+   height: 116px;
+   visibility: hidden;
+   display: none;
+}
+#wb_CssMenu2
+{
+   left: 157px;
+   top: 43px;
+   visibility: hidden;
+   display: none;
+}
+#wb_CssMenu2 li
+{
+   width: 65px;
+}
+#wb_CssMenu2 a
+{
+   color: #FFFFFF;
+   border: 0px #000000 none;
+   background-color: #000000;
+   background-image: none;
+   font-family: "Bookman Old Style";
+   font-weight: bold;
+   font-size: 13px;
+   font-style: normal;
+   text-decoration: none;
+   width: 55px;
+   height: 30px;
+   padding: 0px 5px 0px 5px;
+   line-height: 30px;
+   -moz-box-shadow: 4px 0px 20px #000000;
+   -webkit-box-shadow: 4px 0px 20px #000000;
+   box-shadow: 4px 0px 20px #000000;
+}
+#wb_CssMenu2 li:hover a, #wb_CssMenu2 a:hover
+{
+   color: #FF0000;
+   background-color: #000000;
+   background-image: none;
+   border: 0px #2E6DA4 none;
+}
+#Layer2
+{
+   left: 0px;
+   top: 610px;
+   height: 411px;
+   visibility: hidden;
+   display: none;
+   background-color: #F5F5F5;
+   background-image: none;
+}
+#Layer2
+{
+   width: 113.75%;
+}
+#Layer2_Container
+{
+   width: 546px;
+}
+#wb_About_us
+{
+   left: 108px;
+   top: 21px;
+   width: 265px;
+   height: 37px;
+   visibility: hidden;
+   display: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_About_us
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 32px;
+}
+#wb_Text_2
+{
+   left: 44px;
+   top: 145px;
+   width: 393px;
+   height: 100px;
+   visibility: hidden;
+   display: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text_2
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+}
+#wb_Text_1
+{
+   left: 8px;
+   top: 97px;
+   width: 536px;
+   height: 62px;
+   visibility: hidden;
+   display: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text_1
+{
+   font-family: "Times New Roman";
+   font-weight: normal;
+   font-size: 27px;
+}
+#wb_Bookmark1
+{
+   left: 134px;
+   top: 0px;
+   width: 31px;
+   height: 24px;
+   visibility: visible;
+   display: inline;
+}
+#Text1
+{
+   left: 16px;
+   top: 88px;
+   visibility: hidden;
+   display: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text1
+{
+   font-family: "Times New Roman";
+   font-weight: normal;
+   font-size: 19px;
+}
+#Layer3
+{
+   left: 0px;
+   top: 613px;
+   height: 370px;
+   visibility: visible;
+   display: inline;
+   background-color: #F5F5F5;
+   background-image: none;
+   border: 1px transparent solid;
+}
+#Layer3
+{
+   width: 100%;
+}
+#Layer3_Container
+{
+   width: 478px;
+}
+#wb_Text2
+{
+   left: 62px;
+   top: 46px;
+   width: 354px;
+   height: 37px;
+   visibility: visible;
+   display: inline;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text2
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 32px;
+}
+#Text3
+{
+   left: 12px;
+   top: 129px;
+   visibility: visible;
+   display: inline;
+   background-color: transparent;
+   background-image: none;
+}
+#Text4
+{
+   left: 43px;
+   top: 168px;
+   visibility: visible;
+   display: inline;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Bookmark2
+{
+   left: 32px;
+   top: 654px;
+   width: 36px;
+   height: 26px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Bookmark3
+{
+   left: 33px;
+   top: 692px;
+   width: 35px;
+   height: 31px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Bookmark4
+{
+   left: 32px;
+   top: 740px;
+   width: 40px;
+   height: 28px;
+   visibility: visible;
+   display: inline;
+}
+}

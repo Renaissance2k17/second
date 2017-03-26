@@ -89,7 +89,7 @@ body
 }
 #Layer1
 {
-   background-color: #000000;
+   background-color: #FFFFFF;
    background-image: none;
    border: 1px transparent solid;
    filter: alpha(opacity=70);
@@ -99,7 +99,7 @@ body
 }
 #wb_CssMenu1
 {
-   border: 0px #000000 solid;
+   border: 0px #FFFFFF solid;
    background-color: transparent;
 }
 #wb_CssMenu1 ul
@@ -121,9 +121,9 @@ body
 {
    display: block;
    float: left;
-   color: #FFFFFF;
-   border: 0px #000000 none;
-   background-color: #000000;
+   color: #000000;
+   border: 0px #FFFFFF none;
+   background-color: #FFFFFF;
    background-image: none;
    font-family: "Bookman Old Style";
    font-weight: bold;
@@ -136,16 +136,16 @@ body
    vertical-align: middle;
    line-height: 30px;
    text-align: center;
-   -moz-box-shadow: 4px 0px 20px #000000;
-   -webkit-box-shadow: 4px 0px 20px #000000;
-   box-shadow: 4px 0px 20px #000000;
+   -moz-box-shadow: 4px 0px 20px #FFFFFF;
+   -webkit-box-shadow: 4px 0px 20px #FFFFFF;
+   box-shadow: 4px 0px 20px #FFFFFF;
 }
 #wb_CssMenu1 li:hover a, #wb_CssMenu1 a:hover
 {
    color: #FF0000;
-   background-color: #000000;
+   background-color: #FFFFFF;
    background-image: none;
-   border: 0px #2E6DA4 none;
+   border: 0px #FFFFFF none;
 }
 #wb_CssMenu1 li.firstmain
 {
@@ -238,7 +238,7 @@ body
 }
 #Layer2
 {
-   background-color: transparent;
+   background-color: #F5F5F5;
    background-image: none;
    border: 1px transparent solid;
 }
@@ -372,7 +372,7 @@ body
 }
 #Layer4
 {
-   background-color: transparent;
+   background-color: #FFFFFF;
    background-image: none;
    border: 1px #CCCCCC solid;
 }
@@ -486,9 +486,9 @@ body
 #wb_Text5
 {
    position: absolute;
-   left: 349px;
-   top: 28px;
-   width: 327px;
+   left: 366px;
+   top: 30px;
+   width: 237px;
    height: 37px;
    text-align: center;
    z-index: 17;
@@ -740,7 +740,7 @@ body
    height: 104px;
    visibility: visible;
    display: inline;
-   background-color: #000000;
+   background-color: #FFFFFF;
    background-image: none;
 }
 #Layer1_Container
@@ -760,9 +760,9 @@ body
 }
 #wb_CssMenu1 a
 {
-   color: #FFFFFF;
-   border: 0px #000000 none;
-   background-color: #000000;
+   color: #000000;
+   border: 0px #FFFFFF none;
+   background-color: #FFFFFF;
    background-image: none;
    font-family: "Bookman Old Style";
    font-weight: bold;
@@ -773,16 +773,16 @@ body
    height: 30px;
    padding: 0px 5px 0px 5px;
    line-height: 30px;
-   -moz-box-shadow: 4px 0px 20px #000000;
-   -webkit-box-shadow: 4px 0px 20px #000000;
-   box-shadow: 4px 0px 20px #000000;
+   -moz-box-shadow: 4px 0px 20px #FFFFFF;
+   -webkit-box-shadow: 4px 0px 20px #FFFFFF;
+   box-shadow: 4px 0px 20px #FFFFFF;
 }
 #wb_CssMenu1 li:hover a, #wb_CssMenu1 a:hover
 {
    color: #FF0000;
-   background-color: #000000;
+   background-color: #FFFFFF;
    background-image: none;
-   border: 0px #2E6DA4 none;
+   border: 0px #FFFFFF none;
 }
 #wb_Image1
 {
@@ -838,7 +838,7 @@ body
    visibility: visible;
    display: inline;
    font-size: 13px;
-   background-color: transparent;
+   background-color: #F5F5F5;
    background-image: none;
 }
 #Layer2
@@ -1041,7 +1041,7 @@ body
    height: 317px;
    visibility: visible;
    display: inline;
-   background-color: transparent;
+   background-color: #FFFFFF;
    background-image: none;
 }
 #Layer4
@@ -1077,7 +1077,7 @@ body
    height: 119px;
    visibility: hidden;
    display: none;
-   background-color: #000000;
+   background-color: #FFFFFF;
    background-image: none;
 }
 #Layer1_Container
@@ -1097,9 +1097,9 @@ body
 }
 #wb_CssMenu1 a
 {
-   color: #FFFFFF;
-   border: 0px #000000 none;
-   background-color: #000000;
+   color: #000000;
+   border: 0px #FFFFFF none;
+   background-color: #FFFFFF;
    background-image: none;
    font-family: "Bookman Old Style";
    font-weight: bold;
@@ -1110,16 +1110,16 @@ body
    height: 30px;
    padding: 0px 5px 0px 5px;
    line-height: 30px;
-   -moz-box-shadow: 4px 0px 20px #000000;
-   -webkit-box-shadow: 4px 0px 20px #000000;
-   box-shadow: 4px 0px 20px #000000;
+   -moz-box-shadow: 4px 0px 20px #FFFFFF;
+   -webkit-box-shadow: 4px 0px 20px #FFFFFF;
+   box-shadow: 4px 0px 20px #FFFFFF;
 }
 #wb_CssMenu1 li:hover a, #wb_CssMenu1 a:hover
 {
    color: #FF0000;
-   background-color: #000000;
+   background-color: #FFFFFF;
    background-image: none;
-   border: 0px #2E6DA4 none;
+   border: 0px #FFFFFF none;
 }
 #wb_Image1
 {
@@ -1174,7 +1174,7 @@ body
    height: 411px;
    visibility: hidden;
    display: none;
-   background-color: transparent;
+   background-color: #F5F5F5;
    background-image: none;
 }
 #Layer2
@@ -1377,7 +1377,7 @@ body
    height: 317px;
    visibility: visible;
    display: inline;
-   background-color: transparent;
+   background-color: #FFFFFF;
    background-image: none;
 }
 #Layer4

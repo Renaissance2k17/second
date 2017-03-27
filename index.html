@@ -8,18 +8,23 @@
 <link href="renaissance2k17.css" rel="stylesheet">
 <link href="index.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
-<script src="jquery.ui.effect.min.js"></script>
 <script src="wb.carousel.min.js"></script>
+<script src="jquery.ui.effect.min.js"></script>
 <script src="jquery.ui.effect-fade.min.js"></script>
 <script src="wwb11.min.js"></script>
 <script>
 $(document).ready(function()
 {
+   $("a[href*='#PageHeader1']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#PageHeader1').offset().top }, 600, 'linear');
+   });
    var Carousel1Opts =
    {
       delay: 3000,
-      duration: 500,
-      easing: 'easeInCirc',
+      duration: 1000,
+      easing: 'linear',
       mode: 'forward-circular',
       direction: '',
       scalemode: 3,
@@ -46,11 +51,6 @@ $(document).ready(function()
    {
       event.preventDefault();
       $('html, body').stop().animate({ scrollTop: $('#Layer2').offset().top }, 600, 'linear');
-   });
-   $("a[href*='#Bookmark1']").click(function(event)
-   {
-      event.preventDefault();
-      $('html, body').stop().animate({ scrollTop: $('#wb_Bookmark1').offset().top }, 600, 'linear');
    });
    function Bookmark2Scroll()
    {
@@ -127,11 +127,12 @@ $(document).ready(function()
 </head>
 <body>
 <div id="PageHeader1">
+<div id="PageHeader1_Container">
 <div id="Layer1">
 <div id="Layer1_Container">
 <div id="wb_CssMenu1">
 <ul>
-<li class="firstmain"><a href="#Bookmark1" target="_self">HOME</a>
+<li class="firstmain"><a href="#PageHeader1" target="_self">HOME</a>
 </li>
 <li><a href="#Layer2" target="_self">ABOUT</a>
 </li>
@@ -149,23 +150,6 @@ $(document).ready(function()
 </div>
 <div id="wb_Image1">
 <img src="images/download.png" id="Image1" alt=""></div>
-<div id="wb_CssMenu2">
-<ul>
-<li class="firstmain"><a href="#Layer1" target="_self">HOME</a>
-</li>
-<li><a href="#" target="_self">Item&nbsp;2</a>
-</li>
-<li><a href="#" target="_self">Item&nbsp;3</a>
-</li>
-<li><a href="#" target="_self">Item&nbsp;4</a>
-</li>
-<li><a href="#" target="_self">Item&nbsp;1</a>
-</li>
-<li><a href="#" target="_self">Item&nbsp;5</a>
-</li>
-<li><a href="#" target="_self">Item&nbsp;6</a>
-</li>
-</ul>
 </div>
 </div>
 </div>
@@ -174,9 +158,6 @@ $(document).ready(function()
 <div id="Carousel1">
 <div class="frame frame-1">
 <div class="innerframe">
-<div id="wb_Bookmark1">
-<a id="Bookmark1">&nbsp;</a>
-</div>
 </div>
 </div>
 <div class="frame frame-2">
@@ -188,8 +169,8 @@ $(document).ready(function()
 </div>
 </div>
 </div>
-<div id="Carousel1_back"><a style="cursor:pointer"><img alt="Back" style="border-width:0" src="images/carousel_back.png"></a></div>
-<div id="Carousel1_next"><a style="cursor:pointer"><img alt="Next" style="border-width:0" src="images/carousel_next.png"></a></div>
+<div id="Carousel1_back"><a style="cursor:pointer"><img alt="Back" style="border-width:0" src="images/arrow-prev-white.png"></a></div>
+<div id="Carousel1_next"><a style="cursor:pointer"><img alt="Next" style="border-width:0" src="images/arrow-next-white.png"></a></div>
 </div>
 <div id="Layer2">
 <div id="Layer2_Container">
@@ -204,21 +185,8 @@ $(document).ready(function()
 <span style="color:#696969;font-family:'Times New Roman';font-size:27px;"><strong>Goals</strong></span></div>
 <div id="wb_Text16">
 <span style="color:#000000;font-family:Arial;font-size:16px;line-height:27px;">It would be a kick start to something which may in future become the foundation for many successful startups and would also help to create a startup favoring environment in the college, this would also help the participants to know the shortcomings in their ideas so that they can improve their ideas.</span></div>
-</div>
-</div>
-<div id="Layer3">
-<div id="Layer3_Container">
-<div id="wb_Text2">
-<span style="color:#0000CD;"><strong><u>About us</u></strong></span></div>
-<img src="images/img0003.jpg" id="Text3" alt="" >
-<img src="images/img0004.jpg" id="Text4" alt="" >
-</div>
-</div>
 <div id="wb_Bookmark2">
 <a id="Bookmark2">&nbsp;</a>
-</div>
-<div id="wb_Bookmark3">
-<a id="Bookmark3">&nbsp;</a>
 </div>
 <div id="wb_Bookmark4">
 <a id="Bookmark4">&nbsp;</a>
@@ -228,6 +196,21 @@ $(document).ready(function()
 </div>
 <div id="wb_Bookmark6">
 <a id="Bookmark6">&nbsp;</a>
+</div>
+<div id="wb_Bookmark3">
+<a id="Bookmark3">&nbsp;</a>
+</div>
+</div>
+</div>
+<div id="Layer3">
+<div id="Layer3_Container">
+<div id="wb_Text2">
+<span style="color:#0000CD;"><strong><u>About us</u></strong></span></div>
+<div id="wb_Text4">
+<span style="color:#000000;font-family:Arial;font-size:13px;line-height:25px;">Renaissance is a platform for students to let them think about Business ideas and bring them forth to the open world and discuss them with the gurus of the field considering the fact that India needs its students to have startups </span></div>
+<div id="wb_Text3">
+<span style="color:#696969;font-family:'Times New Roman';font-size:15px;"><strong>Renaissance - A place to fulfill your dreams!!<br></strong></span></div>
+</div>
 </div>
 <div id="Layer4">
 <div id="Layer4_Container">

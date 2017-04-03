@@ -1,6 +1,6 @@
 body
 {
-   background-color: #FF0000;
+   background-color: #FFFFFF;
    color: #000000;
    font-family: Arial;
    font-weight: normal;
@@ -812,11 +812,6 @@ body
 }
 @media only screen and (min-width: 480px) and (max-width: 991px)
 {
-body
-{
-   background-color: #FFFFFF;
-   background-image: none;
-}
 #PageHeader1
 {
    top: 0px;

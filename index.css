@@ -1,6 +1,6 @@
 body
 {
-   background-color: #FFFFFF;
+   background-color: #FF0000;
    color: #000000;
    font-family: Arial;
    font-weight: normal;
@@ -11,7 +11,7 @@ body
 }
 #PageHeader1
 {
-   background-color: #F5F5F5;
+   background-color: transparent;
    background-image: none;
    -moz-box-sizing: border-box;
    box-sizing: border-box;
@@ -27,10 +27,10 @@ body
 }
 #Carousel1 .frame
 {
-   width: 970px;
+   width: 992px;
    display: inline-block;
    overflow: hidden;
-   height: 579px;
+   height: 558px;
 }
 #Carousel1 .innerframe
 {
@@ -40,7 +40,7 @@ body
    margin-left: 0;
    position: absolute;
    top: 0;
-   width: 970px;
+   width: 992px;
 }
 #wb_Carousel1 .pagination
 {
@@ -63,7 +63,8 @@ body
    background-image: url(images/VIT-Chennai.jpg);
    background-repeat: repeat;
    background-position: center center;
-   background-attachment: scroll;
+   background-attachment: fixed;
+   background-position: 50% 0;
    background-size: cover;
 }
 #Carousel1 .frame-2
@@ -72,7 +73,8 @@ body
    background-image: url(images/desktop6_bk.jpg);
    background-repeat: repeat;
    background-position: center center;
-   background-attachment: scroll;
+   background-attachment: fixed;
+   background-position: 50% 0;
    background-size: cover;
 }
 #Carousel1 .frame-3
@@ -81,16 +83,18 @@ body
    background-image: url(images/service_bk1.jpg);
    background-repeat: repeat;
    background-position: center center;
-   background-attachment: scroll;
+   background-attachment: fixed;
+   background-position: 50% 0;
    background-size: cover;
 }
 #Layer1
 {
-   background-color: #FFFFFF;
+   background-color: #CD5C5C;
    background-image: none;
    border: 1px transparent solid;
-   filter: alpha(opacity=70);
-   opacity: 0.70;
+   -moz-box-shadow: 1px 0px 3px #000000;
+   -webkit-box-shadow: 1px 0px 3px #000000;
+   box-shadow: 1px 0px 3px #000000;
    -moz-box-sizing: border-box;
    box-sizing: border-box;
 }
@@ -111,36 +115,31 @@ body
 {
    float: left;
    margin: 0;
-   padding: 0px 4px 0px 0px;
-   width: 80px;
+   padding: 0px 6px 0px 0px;
 }
 #wb_CssMenu1 a
 {
    display: block;
    float: left;
-   color: #000000;
+   color: #FFFFFF;
    border: 0px #FFFFFF none;
-   background-color: #FFFFFF;
+   background-color: #CD5C5C;
    background-image: none;
    font-family: "Bookman Old Style";
    font-weight: bold;
    font-size: 13px;
    font-style: normal;
    text-decoration: none;
-   width: 70px;
    height: 30px;
+   line-height: 30px;
    padding: 0px 5px 0px 5px;
    vertical-align: middle;
-   line-height: 30px;
    text-align: center;
-   -moz-box-shadow: 4px 0px 20px #FFFFFF;
-   -webkit-box-shadow: 4px 0px 20px #FFFFFF;
-   box-shadow: 4px 0px 20px #FFFFFF;
 }
 #wb_CssMenu1 li:hover a, #wb_CssMenu1 a:hover
 {
-   color: #FF0000;
-   background-color: #FFFFFF;
+   color: #FFFFFF;
+   background-color: #A52A2A;
    background-image: none;
    border: 0px #FFFFFF none;
 }
@@ -152,6 +151,90 @@ body
 {
    padding-right: 0px;
 }
+#wb_CssMenu1 li:hover, #wb_CssMenu1 li a:hover
+{
+   position: relative;
+}
+#wb_CssMenu1 a.withsubmenu
+{
+   padding: 0 5px 0 5px;
+   background-image: none;
+}
+#wb_CssMenu1 li:hover a.withsubmenu, #wb_CssMenu1 a.withsubmenu:hover
+{
+   background-image: none;
+}
+#wb_CssMenu1 ul ul
+{
+   position: absolute;
+   left: 0;
+   top: 0;
+   visibility: hidden;
+   width: 180px;
+   height: auto;
+   border: none;
+   background-color: #CD5C5C;
+   -moz-box-shadow: 0px 0px 4px #000000;
+   -webkit-box-shadow: 0px 0px 4px #000000;
+   box-shadow: 0px 0px 4px #000000;
+}
+#wb_CssMenu1 ul :hover ul
+{
+   left: 0px;
+   top: 30px;
+   padding-top: 0px;
+   visibility: visible;
+}
+#wb_CssMenu1 .firstmain:hover ul
+{
+   left: 0px;
+}
+#wb_CssMenu1 li li
+{
+   width: 180px;
+   padding: 0 0px 0px 0px;
+   border: 0px #2F4F4F solid;
+   border-width: 0 0px;
+}
+#wb_CssMenu1 li li.firstitem
+{
+   border-top: 0px #2F4F4F solid;
+}
+#wb_CssMenu1 li li.lastitem
+{
+   border-bottom: 0px #2F4F4F solid;
+}
+#wb_CssMenu1 ul ul a, #wb_CssMenu1 ul :hover ul a
+{
+   float: none;
+   margin: 0;
+   width: 168px;
+   height: auto;
+   white-space: normal;
+   padding: 9px 6px 8px 6px;
+   background-color: #CD5C5C;
+   background-image: none;
+   border: 0px #2F4F4F solid;
+   color: #FFFFFF;
+   font-family: "Bookman Old Style";
+   font-weight: bold;
+   font-size: 13px;
+   font-style: normal;
+   line-height: 13px;
+   text-align: left;
+   text-decoration: none;
+}
+#wb_CssMenu1 ul :hover ul .firstitem a
+{
+   margin-top: 0px;
+}
+#wb_CssMenu1 ul ul :hover a, #wb_CssMenu1 ul ul a:hover, #wb_CssMenu1 ul ul :hover ul :hover a, #wb_CssMenu1 ul ul :hover ul a:hover
+{
+   background-color: #A52A2A;
+   background-image: none;
+   border: 0px #2F4F4F solid;
+   color: #FFFFFF;
+}
 #wb_CssMenu1 br
 {
    clear: both;
@@ -161,8 +244,11 @@ body
 }
 #Image1
 {
-   border: 0px #000000 solid;
+   border: 0px transparent solid;
    padding: 0px 0px 0px 0px;
+   -webkit-animation: slide-down-in 1000ms linear 0ms 1 normal;
+   -moz-animation: slide-down-in 1000ms linear 0ms 1 normal;
+   animation: slide-down-in 1000ms linear 0ms 1 normal;
    left: 0;
    top: 0;
    width: 100%;
@@ -170,9 +256,11 @@ body
 }
 #Layer2
 {
-   background-color: #F5F5F5;
+   background-color: #9370DB;
    background-image: none;
-   border: 1px transparent solid;
+   -moz-box-shadow: 0px 0px 3px #696969;
+   -webkit-box-shadow: 0px 0px 3px #696969;
+   box-shadow: 0px 0px 3px #696969;
 }
 #wb_About_us 
 {
@@ -185,7 +273,7 @@ body
 }
 #wb_About_us
 {
-   font-family: Arial;
+   font-family: "Comic Sans MS";
    font-weight: normal;
    font-size: 32px;
 }
@@ -322,6 +410,8 @@ body
    background-color: #FFFFFF;
    background-image: none;
    border: 1px #CCCCCC solid;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
 }
 #wb_Text5 
 {
@@ -336,20 +426,65 @@ body
 {
    text-align: center;
 }
+#wb_Text6 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text6 div
+{
+   text-align: left;
+}
+#Button1
+{
+   border: 2px #2E6DA4 solid;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   -moz-box-shadow: 0px 0px 2px #000000;
+   -webkit-box-shadow: 0px 0px 2px #000000;
+   box-shadow: 0px 0px 2px #000000;
+}
+#Button2
+{
+   border: 2px #2E6DA4 solid;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   -moz-box-shadow: 0px 0px 2px #000000;
+   -webkit-box-shadow: 0px 0px 2px #000000;
+   box-shadow: 0px 0px 2px #000000;
+}
 #wb_About_us
 {
    position: absolute;
-   left: 404px;
-   top: 31px;
-   width: 160px;
-   height: 37px;
+   left: 396px;
+   top: 61px;
+   width: 199px;
+   height: 45px;
    visibility: hidden;
    text-align: center;
-   z-index: 6;
+   z-index: 8;
 }
 #Layer2_Container
 {
-   width: 968px;
+   width: 990px;
    position: relative;
    margin-left: auto;
    margin-right: auto;
@@ -364,16 +499,16 @@ body
    height: 37px;
    visibility: hidden;
    text-align: center;
-   z-index: 16;
+   z-index: 18;
 }
 #Text1
 {
    position: absolute;
    left: 12px;
-   top: 88px;
+   top: 118px;
    width: 371px;
    height: 62px;
-   z-index: 8;
+   z-index: 10;
 }
 #Carousel1_next
 {
@@ -392,17 +527,17 @@ body
    width: 440px;
    height: 39px;
    visibility: hidden;
-   z-index: 18;
+   z-index: 20;
    text-align: left;
 }
 #wb_Image1
 {
    position: absolute;
-   left: 9px;
-   top: 3px;
-   width: 81px;
-   height: 85px;
-   z-index: 1;
+   left: 88px;
+   top: 9px;
+   width: 49px;
+   height: 52px;
+   z-index: 0;
 }
 #wb_Text4
 {
@@ -412,31 +547,31 @@ body
    width: 393px;
    height: 100px;
    visibility: hidden;
-   z-index: 17;
+   z-index: 19;
    text-align: left;
 }
 #wb_Bookmark2
 {
    position: absolute;
    left: 36px;
-   top: 68px;
+   top: 98px;
    width: 27px;
    height: 18px;
-   z-index: 11;
+   z-index: 13;
 }
 #Layer1
 {
    position: fixed;
-   text-align: center;
+   text-align: left;
    left: 0;
    top: 0;
    right: 0;
-   height: 93px;
-   z-index: 2;
+   height: 69px;
+   z-index: 3;
 }
 #PageHeader1_Container
 {
-   width: 970px;
+   width: 992px;
    position: relative;
    margin-left: auto;
    margin-right: auto;
@@ -445,31 +580,32 @@ body
 #wb_Text5
 {
    position: absolute;
-   left: 366px;
-   top: 30px;
+   left: 377px;
+   top: 64px;
    width: 237px;
-   height: 37px;
+   height: 40px;
    text-align: center;
-   z-index: 19;
+   z-index: 21;
 }
 #wb_Bookmark3
 {
    position: absolute;
    left: 32px;
-   top: 119px;
+   top: 149px;
    width: 35px;
    height: 31px;
-   z-index: 15;
+   z-index: 17;
 }
 #Layer2
 {
    position: absolute;
+   overflow: hidden;
    text-align: center;
    left: 0px;
-   top: 672px;
-   width: 99.7938%;
-   height: 586px;
-   z-index: 22;
+   top: 627px;
+   width: 99.7984%;
+   height: 616px;
+   z-index: 26;
 }
 #Carousel1_back
 {
@@ -482,10 +618,13 @@ body
 }
 #Layer4_Container
 {
-   width: 968px;
+   width: 992px;
+   height: 775px;
    position: relative;
    margin-left: auto;
    margin-right: auto;
+   margin-top: auto;
+   margin-bottom: auto;
    text-align: left;
 }
 #Layer3
@@ -495,63 +634,66 @@ body
    visibility: hidden;
    left: 1px;
    top: 613px;
-   width: 49.1753%;
+   width: 48.0847%;
    height: 366px;
-   z-index: 23;
+   z-index: 27;
 }
 #wb_Bookmark4
 {
    position: absolute;
    left: 29px;
-   top: 238px;
+   top: 268px;
    width: 40px;
    height: 28px;
-   z-index: 12;
+   z-index: 14;
 }
-#Layer1_Container
+#wb_Text6
 {
-   width: 970px;
-   position: relative;
-   margin-left: auto;
-   margin-right: auto;
+   position: absolute;
+   left: 151px;
+   top: 19px;
+   width: 212px;
+   height: 29px;
+   z-index: 1;
    text-align: left;
 }
 #Layer4
 {
    position: absolute;
+   overflow: hidden;
    text-align: center;
    left: 0px;
-   top: 1260px;
-   width: 99.7938%;
-   height: 451px;
-   z-index: 24;
+   top: 1245px;
+   width: 100%;
+   height: 775px;
+   z-index: 28;
 }
 #wb_Bookmark5
 {
    position: absolute;
    left: 40px;
-   top: 350px;
+   top: 380px;
    width: 18px;
    height: 18px;
-   z-index: 13;
+   z-index: 15;
 }
 #wb_Bookmark6
 {
    position: absolute;
    left: 39px;
-   top: 464px;
+   top: 494px;
    width: 20px;
    height: 18px;
-   z-index: 14;
+   z-index: 16;
 }
 #wb_Carousel1
 {
    position: absolute;
    left: 0px;
-   top: 93px;
-   width: 970px;
-   height: 579px;
-   z-index: 21;
+   top: 69px;
+   width: 992px;
+   height: 558px;
+   z-index: 25;
    overflow: hidden;
 }
 #Bookmark2
@@ -565,8 +707,8 @@ body
    left: 0px;
    top: 0px;
    width: 100%;
-   height: 93px;
-   z-index: 25;
+   height: 69px;
+   z-index: 29;
 }
 #Bookmark3
 {
@@ -587,12 +729,21 @@ body
 #wb_CssMenu1
 {
    position: absolute;
-   left: 218px;
-   top: 30px;
-   width: 588px;
+   left: 388px;
+   top: 18px;
+   width: 583px;
    height: 30px;
-   text-align: center;
-   z-index: 0;
+   text-align: right;
+   z-index: 2;
+}
+#Button1
+{
+   position: absolute;
+   left: -1px;
+   top: 233px;
+   width: 96px;
+   height: 25px;
+   z-index: 22;
 }
 #Bookmark5
 {
@@ -602,16 +753,25 @@ body
 {
    position: absolute;
    left: 11px;
-   top: 339px;
+   top: 369px;
    width: 940px;
    height: 31px;
    visibility: hidden;
-   z-index: 9;
+   z-index: 11;
    text-align: left;
 }
 #Carousel1
 {
    position: absolute;
+}
+#Button2
+{
+   position: absolute;
+   left: -1px;
+   top: 276px;
+   width: 96px;
+   height: 25px;
+   z-index: 23;
 }
 #Bookmark6
 {
@@ -621,43 +781,48 @@ body
 {
    position: absolute;
    left: 23px;
-   top: 388px;
+   top: 418px;
    width: 513px;
    height: 135px;
    visibility: hidden;
-   z-index: 10;
+   z-index: 12;
    text-align: left;
 }
 #wb_Text_1
 {
    position: absolute;
    left: 11px;
-   top: 115px;
+   top: 145px;
    width: 536px;
    height: 62px;
    visibility: hidden;
-   z-index: 7;
+   z-index: 9;
    text-align: left;
 }
 #wb_Text_2
 {
    position: absolute;
    left: 23px;
-   top: 178px;
+   top: 208px;
    width: 513px;
    height: 100px;
    visibility: hidden;
-   z-index: 5;
+   z-index: 7;
    text-align: left;
 }
-@media only screen and (min-width: 480px) and (max-width: 969px)
+@media only screen and (min-width: 480px) and (max-width: 991px)
 {
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
 #PageHeader1
 {
    top: 0px;
    height: 93px;
    visibility: visible;
-   background-color: #F5F5F5;
+   background-color: transparent;
    background-image: none;
 }
 #PageHeader1
@@ -692,12 +857,8 @@ body
    height: 119px;
    visibility: hidden;
    display: none;
-   background-color: #FFFFFF;
+   background-color: #E9967A;
    background-image: none;
-}
-#Layer1_Container
-{
-   width: 480px;
 }
 #wb_CssMenu1
 {
@@ -708,33 +869,66 @@ body
 }
 #wb_CssMenu1 li
 {
-   width: 80px;
 }
 #wb_CssMenu1 a
 {
-   color: #000000;
+   color: #FFFFFF;
    border: 0px #FFFFFF none;
-   background-color: #FFFFFF;
+   background-color: #CD5C5C;
    background-image: none;
    font-family: "Bookman Old Style";
    font-weight: bold;
    font-size: 13px;
    font-style: normal;
    text-decoration: none;
-   width: 70px;
    height: 30px;
-   padding: 0px 5px 0px 5px;
    line-height: 30px;
-   -moz-box-shadow: 4px 0px 20px #FFFFFF;
-   -webkit-box-shadow: 4px 0px 20px #FFFFFF;
-   box-shadow: 4px 0px 20px #FFFFFF;
 }
 #wb_CssMenu1 li:hover a, #wb_CssMenu1 a:hover
 {
-   color: #FF0000;
-   background-color: #FFFFFF;
+   color: #FFFFFF;
+   background-color: #A52A2A;
    background-image: none;
    border: 0px #FFFFFF none;
+}
+#wb_CssMenu1 a.withsubmenu
+{
+   padding: 0 5px 0 5px;
+}
+#wb_CssMenu1 ul :hover ul
+{
+   left: 0px;
+   top: 30px;
+   padding-top: 0px;
+   visibility: visible;
+}
+#wb_CssMenu1 .firstmain:hover ul
+{
+   left: 0px;
+}
+#wb_CssMenu1 li li
+{
+   width: 180px;
+}
+#wb_CssMenu1 ul ul a, #wb_CssMenu1 ul :hover ul a
+{
+   width: 168px;
+   padding: 9px 6px 8px 6px;
+   background-color: #CD5C5C;
+   border: 0px #2F4F4F solid;
+   color: #FFFFFF;
+   font-family: "Bookman Old Style";
+   font-weight: bold;
+   font-size: 13px;
+   font-style: normal;
+   line-height: 13px;
+   text-decoration: none;
+}
+#wb_CssMenu1 ul ul :hover a, #wb_CssMenu1 ul ul a:hover, #wb_CssMenu1 ul ul :hover ul :hover a, #wb_CssMenu1 ul ul :hover ul a:hover
+{
+   background-color: #A52A2A;
+   border: 0px #2F4F4F solid;
+   color: #FFFFFF;
 }
 #wb_Image1
 {
@@ -753,7 +947,7 @@ body
    visibility: hidden;
    display: none;
    font-size: 13px;
-   background-color: #F5F5F5;
+   background-color: #9370DB;
    background-image: none;
 }
 #Layer2
@@ -766,8 +960,8 @@ body
 }
 #wb_About_us
 {
-   left: 108px;
-   top: 21px;
+   left: 109px;
+   top: 22px;
    width: 265px;
    height: 37px;
    visibility: hidden;
@@ -783,8 +977,8 @@ body
 }
 #wb_Text_2
 {
-   left: 44px;
-   top: 145px;
+   left: 45px;
+   top: 146px;
    width: 393px;
    height: 100px;
    visibility: hidden;
@@ -800,8 +994,8 @@ body
 }
 #wb_Text_1
 {
-   left: 8px;
-   top: 97px;
+   left: 9px;
+   top: 98px;
    width: 536px;
    height: 62px;
    visibility: hidden;
@@ -817,8 +1011,8 @@ body
 }
 #Text1
 {
-   left: 16px;
-   top: 88px;
+   left: 17px;
+   top: 89px;
    visibility: hidden;
    display: none;
    background-color: transparent;
@@ -834,7 +1028,7 @@ body
 {
    left: 0px;
    top: 613px;
-   height: 370px;
+   height: 404px;
    visibility: visible;
    display: inline;
    font-size: 13px;
@@ -872,7 +1066,7 @@ body
    left: 12px;
    top: 129px;
    width: 440px;
-   height: 44px;
+   height: 39px;
    visibility: visible;
    display: inline;
    background-color: transparent;
@@ -893,8 +1087,8 @@ body
 }
 #wb_Bookmark2
 {
-   left: 31px;
-   top: 43px;
+   left: 32px;
+   top: 44px;
    width: 36px;
    height: 26px;
    visibility: visible;
@@ -902,8 +1096,8 @@ body
 }
 #wb_Bookmark3
 {
-   left: 32px;
-   top: 81px;
+   left: 33px;
+   top: 82px;
    width: 35px;
    height: 31px;
    visibility: visible;
@@ -911,8 +1105,8 @@ body
 }
 #wb_Bookmark4
 {
-   left: 31px;
-   top: 129px;
+   left: 32px;
+   top: 130px;
    width: 40px;
    height: 28px;
    visibility: visible;
@@ -920,8 +1114,8 @@ body
 }
 #wb_Text15
 {
-   left: 11px;
-   top: 351px;
+   left: 12px;
+   top: 352px;
    width: 940px;
    height: 31px;
    visibility: visible;
@@ -931,8 +1125,8 @@ body
 }
 #wb_Text16
 {
-   left: 23px;
-   top: 403px;
+   left: 24px;
+   top: 404px;
    width: 513px;
    height: 135px;
    visibility: visible;
@@ -942,8 +1136,8 @@ body
 }
 #wb_Bookmark5
 {
-   left: 40px;
-   top: 385px;
+   left: 41px;
+   top: 386px;
    width: 18px;
    height: 18px;
    visibility: visible;
@@ -951,8 +1145,8 @@ body
 }
 #wb_Bookmark6
 {
-   left: 39px;
-   top: 518px;
+   left: 40px;
+   top: 519px;
    width: 20px;
    height: 18px;
    visibility: visible;
@@ -962,9 +1156,9 @@ body
 {
    left: 0px;
    top: 1197px;
-   height: 317px;
-   visibility: visible;
-   display: inline;
+   height: 319px;
+   visibility: hidden;
+   display: none;
    font-size: 13px;
    background-color: #FFFFFF;
    background-image: none;
@@ -975,17 +1169,60 @@ body
 }
 #Layer4_Container
 {
-   width: 968px;
+   width: 970px;
+   height:319px;
 }
 #wb_Text5
 {
    left: 366px;
    top: 43px;
    width: 237px;
-   height: 37px;
+   height: 40px;
    visibility: visible;
    display: inline;
    background-color: transparent;
+   background-image: none;
+}
+#wb_Text6
+{
+   left: 157px;
+   top: 43px;
+   width: 483px;
+   height: 30px;
+   visibility: hidden;
+   display: none;
+   font-size: 13px;
+   font-family: "Bookman Old Style";
+   font-weight: bold;
+   background-color: transparent;
+   background-image: none;
+   border: 0px transparent solid;
+   -moz-box-shadow: 4px 0px 20px #000000;
+   -webkit-box-shadow: 4px 0px 20px #000000;
+   box-shadow: 4px 0px 20px #000000;
+}
+#Button1
+{
+   left: 66px;
+   top: 358px;
+   width: 96px;
+   height: 25px;
+   visibility: visible;
+   display: inline;
+   color: #FFFFFF;
+   background-color: #3370B7;
+   background-image: none;
+}
+#Button2
+{
+   left: 1px;
+   top: 324px;
+   width: 96px;
+   height: 25px;
+   visibility: visible;
+   display: inline;
+   color: #FFFFFF;
+   background-color: #3370B7;
    background-image: none;
 }
 }
@@ -995,8 +1232,8 @@ body
 {
    top: 0px;
    height: 93px;
-   visibility: visible;
-   background-color: #F5F5F5;
+   visibility: hidden;
+   background-color: transparent;
    background-image: none;
 }
 #PageHeader1
@@ -1031,49 +1268,78 @@ body
    height: 93px;
    visibility: hidden;
    display: none;
-   background-color: #FFFFFF;
+   background-color: #E9967A;
    background-image: none;
-}
-#Layer1_Container
-{
-   width: 320px;
 }
 #wb_CssMenu1
 {
    left: 218px;
    top: 30px;
-   visibility: visible;
-   display: inline;
+   visibility: hidden;
+   display: none;
 }
 #wb_CssMenu1 li
 {
-   width: 80px;
 }
 #wb_CssMenu1 a
 {
-   color: #000000;
+   color: #FFFFFF;
    border: 0px #FFFFFF none;
-   background-color: #FFFFFF;
+   background-color: #CD5C5C;
    background-image: none;
    font-family: "Bookman Old Style";
    font-weight: bold;
    font-size: 13px;
    font-style: normal;
    text-decoration: none;
-   width: 70px;
    height: 30px;
-   padding: 0px 5px 0px 5px;
    line-height: 30px;
-   -moz-box-shadow: 4px 0px 20px #FFFFFF;
-   -webkit-box-shadow: 4px 0px 20px #FFFFFF;
-   box-shadow: 4px 0px 20px #FFFFFF;
 }
 #wb_CssMenu1 li:hover a, #wb_CssMenu1 a:hover
 {
-   color: #FF0000;
-   background-color: #FFFFFF;
+   color: #FFFFFF;
+   background-color: #A52A2A;
    background-image: none;
    border: 0px #FFFFFF none;
+}
+#wb_CssMenu1 a.withsubmenu
+{
+   padding: 0 5px 0 5px;
+}
+#wb_CssMenu1 ul :hover ul
+{
+   left: 0px;
+   top: 30px;
+   padding-top: 0px;
+   visibility: visible;
+}
+#wb_CssMenu1 .firstmain:hover ul
+{
+   left: 0px;
+}
+#wb_CssMenu1 li li
+{
+   width: 180px;
+}
+#wb_CssMenu1 ul ul a, #wb_CssMenu1 ul :hover ul a
+{
+   width: 168px;
+   padding: 9px 6px 8px 6px;
+   background-color: #CD5C5C;
+   border: 0px #2F4F4F solid;
+   color: #FFFFFF;
+   font-family: "Bookman Old Style";
+   font-weight: bold;
+   font-size: 13px;
+   font-style: normal;
+   line-height: 13px;
+   text-decoration: none;
+}
+#wb_CssMenu1 ul ul :hover a, #wb_CssMenu1 ul ul a:hover, #wb_CssMenu1 ul ul :hover ul :hover a, #wb_CssMenu1 ul ul :hover ul a:hover
+{
+   background-color: #A52A2A;
+   border: 0px #2F4F4F solid;
+   color: #FFFFFF;
 }
 #wb_Image1
 {
@@ -1081,8 +1347,8 @@ body
    top: 3px;
    width: 81px;
    height: 85px;
-   visibility: visible;
-   display: inline;
+   visibility: hidden;
+   display: none;
 }
 #Layer2
 {
@@ -1092,7 +1358,7 @@ body
    visibility: hidden;
    display: none;
    font-size: 8px;
-   background-color: #F5F5F5;
+   background-color: #9370DB;
    background-image: none;
 }
 #Layer2
@@ -1105,8 +1371,8 @@ body
 }
 #wb_About_us
 {
-   left: 404px;
-   top: 31px;
+   left: 405px;
+   top: 32px;
    width: 160px;
    height: 37px;
    visibility: hidden;
@@ -1116,14 +1382,14 @@ body
 }
 #wb_About_us
 {
-   font-family: Arial;
+   font-family: "Comic Sans MS";
    font-weight: normal;
    font-size: 32px;
 }
 #wb_Text_2
 {
-   left: 23px;
-   top: 178px;
+   left: 24px;
+   top: 179px;
    width: 513px;
    height: 100px;
    visibility: hidden;
@@ -1139,8 +1405,8 @@ body
 }
 #wb_Text_1
 {
-   left: 11px;
-   top: 115px;
+   left: 12px;
+   top: 116px;
    width: 536px;
    height: 62px;
    visibility: hidden;
@@ -1156,8 +1422,8 @@ body
 }
 #Text1
 {
-   left: 12px;
-   top: 88px;
+   left: 13px;
+   top: 89px;
    visibility: hidden;
    display: none;
    background-color: transparent;
@@ -1177,7 +1443,7 @@ body
    visibility: visible;
    display: inline;
    font-size: 8px;
-   background-color: #FFFFFF;
+   background-color: #F5F5F5;
    background-image: none;
    border: 1px #CCCCCC solid;
 }
@@ -1233,8 +1499,8 @@ body
 }
 #wb_Bookmark2
 {
-   left: 31px;
-   top: 84px;
+   left: 32px;
+   top: 85px;
    width: 36px;
    height: 26px;
    visibility: hidden;
@@ -1242,26 +1508,26 @@ body
 }
 #wb_Bookmark3
 {
-   left: 32px;
-   top: 136px;
+   left: 33px;
+   top: 137px;
    width: 35px;
    height: 31px;
-   visibility: visible;
-   display: inline;
+   visibility: hidden;
+   display: none;
 }
 #wb_Bookmark4
 {
-   left: 29px;
-   top: 255px;
+   left: 30px;
+   top: 256px;
    width: 40px;
    height: 28px;
-   visibility: visible;
-   display: inline;
+   visibility: hidden;
+   display: none;
 }
 #wb_Text15
 {
-   left: 11px;
-   top: 339px;
+   left: 12px;
+   top: 340px;
    width: 940px;
    height: 31px;
    visibility: hidden;
@@ -1271,8 +1537,8 @@ body
 }
 #wb_Text16
 {
-   left: 23px;
-   top: 388px;
+   left: 24px;
+   top: 389px;
    width: 513px;
    height: 135px;
    visibility: hidden;
@@ -1282,27 +1548,27 @@ body
 }
 #wb_Bookmark5
 {
-   left: 40px;
-   top: 373px;
+   left: 41px;
+   top: 374px;
    width: 18px;
    height: 18px;
-   visibility: visible;
-   display: inline;
+   visibility: hidden;
+   display: none;
 }
 #wb_Bookmark6
 {
-   left: 39px;
-   top: 506px;
+   left: 40px;
+   top: 507px;
    width: 20px;
    height: 18px;
-   visibility: visible;
-   display: inline;
+   visibility: hidden;
+   display: none;
 }
 #Layer4
 {
    left: 0px;
    top: 1210px;
-   height: 317px;
+   height: 319px;
    visibility: hidden;
    display: none;
    font-size: 8px;
@@ -1315,7 +1581,8 @@ body
 }
 #Layer4_Container
 {
-   width: 968px;
+   width: 970px;
+   height:319px;
 }
 #wb_Text5
 {
@@ -1323,9 +1590,44 @@ body
    top: 30px;
    width: 237px;
    height: 37px;
+   visibility: hidden;
+   display: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text6
+{
+   left: 218px;
+   top: 43px;
+   width: 483px;
+   height: 29px;
+   visibility: hidden;
+   display: none;
+   background-color: transparent;
+   background-image: none;
+}
+#Button1
+{
+   left: 66px;
+   top: 345px;
+   width: 96px;
+   height: 25px;
    visibility: visible;
    display: inline;
-   background-color: transparent;
+   color: #FFFFFF;
+   background-color: #3370B7;
+   background-image: none;
+}
+#Button2
+{
+   left: 1px;
+   top: 311px;
+   width: 96px;
+   height: 25px;
+   visibility: visible;
+   display: inline;
+   color: #FFFFFF;
+   background-color: #3370B7;
    background-image: none;
 }
 }

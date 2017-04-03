@@ -1,15 +1,17 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Renaissance</title>
+<meta charset="iso-8859-1">
+<title>;)</title>
+<meta name="generator" content="WYSIWYG Web Builder 11 - http://www.wysiwygwebbuilder.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="renaissance2k17.css" rel="stylesheet">
+<link href="renaissance2k17(2).css" rel="stylesheet">
 <link href="index.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
-<script src="wb.carousel.min.js"></script>
 <script src="jquery.ui.effect.min.js"></script>
 <script src="jquery.ui.effect-fade.min.js"></script>
+<script src="wb.carousel.min.js"></script>
+<script src="jquery.ui.effect-blind.min.js"></script>
 <script src="wwb11.min.js"></script>
 <script>
 $(document).ready(function()
@@ -17,7 +19,7 @@ $(document).ready(function()
    $("a[href*='#PageHeader1']").click(function(event)
    {
       event.preventDefault();
-      $('html, body').stop().animate({ scrollTop: $('#PageHeader1').offset().top }, 600, 'linear');
+      $('html, body').stop().animate({ scrollTop: $('#PageHeader1').offset().top }, 800, 'linear');
    });
    var Carousel1Opts =
    {
@@ -49,7 +51,7 @@ $(document).ready(function()
    $("a[href*='#Layer2']").click(function(event)
    {
       event.preventDefault();
-      $('html, body').stop().animate({ scrollTop: $('#Layer2').offset().top }, 600, 'linear');
+      $('html, body').stop().animate({ scrollTop: $('#Layer2').offset().top }, 800, 'linear');
    });
    function Bookmark2Scroll()
    {
@@ -121,21 +123,34 @@ $(document).ready(function()
    {
       Bookmark6Scroll();
    });
+   $("a[href*='#Layer4']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#Layer4').offset().top }, 800, 'linear');
+   });
 });
 </script>
 </head>
-<body>
+<body onload="ShowObjectWithEffect('Layer1', 1, 'fade', 5000);return false;">
 <div id="PageHeader1">
 <div id="PageHeader1_Container">
 <div id="Layer1">
-<div id="Layer1_Container">
+<div id="wb_Image1">
+<img src="images/download.png" id="Image1" alt=""></div>
+<div id="wb_Text6">
+<span style="color:#D3D3D3;font-family:Georgia;font-size:24px;">Renaissance 2017</span></div>
 <div id="wb_CssMenu1">
 <ul>
 <li class="firstmain"><a href="#PageHeader1" target="_self">HOME</a>
 </li>
-<li><a href="#Layer2" target="_self">ABOUT</a>
+<li><a class="withsubmenu" href="#" target="_self">ABOUT</a>
+
+<ul>
+<li class="firstitem"><a href="#Layer2" target="_self">RENAISSANCE</a>
 </li>
-<li><a href="#" target="_self">Item&nbsp;3</a>
+<li class="lastitem"><a href="#Layer4" target="_self">COMPETITION</a>
+</li>
+</ul>
 </li>
 <li><a href="#" target="_self">Item&nbsp;4</a>
 </li>
@@ -146,9 +161,6 @@ $(document).ready(function()
 <li><a href="#" target="_self">Item&nbsp;6</a>
 </li>
 </ul>
-</div>
-<div id="wb_Image1">
-<img src="images/download.png" id="Image1" alt=""></div>
 </div>
 </div>
 </div>
@@ -176,7 +188,7 @@ $(document).ready(function()
 <div id="wb_Text_2">
 <span style="color:#000000;">Renaissance is a platform for students to let them think about Business ideas and bring them forth to the open world and discuss them with the gurus of the field considering the fact that India needs its students to have startups </span></div>
 <div id="wb_About_us">
-<span style="color:#0000CD;"><strong><u>About us</u></strong></span></div>
+<span style="color:#696969;"><strong>ABOUT US</strong></span></div>
 <div id="wb_Text_1">
 <span style="color:#696969;"><strong>Renaissance - A place to fulfill your dreams!!<br></strong></span></div>
 <img src="images/img0001.jpg" id="Text1" alt="" >
@@ -214,7 +226,9 @@ $(document).ready(function()
 <div id="Layer4">
 <div id="Layer4_Container">
 <div id="wb_Text5">
-<span style="color:#0000CD;font-family:Arial;font-size:32px;"><strong><u>Competition</u></strong></span></div>
+<span style="color:#000000;font-family:'Trebuchet MS';font-size:32px;"><strong>COMPETITION</strong></span></div>
+<input type="button" id="Button1" onclick="ShowObjectWithEffect('InlineFrame1', 0, 'blindhorizontal', 1000);return false;" name="" value="Rules">
+<input type="button" id="Button2" onclick="ShowObjectWithEffect('InlineFrame1', 0, 'blindhorizontal', 1000);return false;" name="" value="Timeline">
 </div>
 </div>
 </body>
